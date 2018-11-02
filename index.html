@@ -4,28 +4,100 @@
 	<meta charset="utf-8">
 	<title> Mon profil</title>
 
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
 	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+
 </head>
 <body>
 	<h1>DIJOUX Gaëlle</h1>
 	<h2>Mon Profil</h2>
 
-	<img src="images/logo-kedge.jpg">
+	<img class="decoration" src="images/photo.jpg">
+	<img class="decoration" 
+	src="https://cdn1.pepinieres-naudet.com/boutique/2672-thickbox_default/rosier-grand-huit-rose-rouge-grandes-fleurs-rosier-grimpant.jpg">
+	<img  id="logo" src="images/logo-kedge.jpg">
 
-	<p>Salut, moi c'est Gaelle, j'ai 25 ans, je viens de l'ile de la Réunion, j'étudie à <b>Kedge Business school</b>. Mon copain s'appelle Manuel, il étudie à Toulouse Business School</p>
 
-	<ol>
-		<li>Mon 1er item</li>
-		<li>Mon 2eme item</li>
-		<li>Mon 3eme item</li>
-	</ol>
+	<p> Salut, moi c'est Gaelle, j'ai 25 ans, je viens de l'ile de la Réunion, j'étudie à <b>Kedge Business school</b>. Mon copain s'appelle Manuel, il étudie à Toulouse Business School</p>
+
+	<ul class=list-inline">
+		<li class="list-inline-item">
+			<i class="fab fa-facebook icon-blue"></i></li>
+		<li class="list-inline-item">Mon 2eme item</li>
+		<li class="list-inline-item">Mon 3eme item</li>
+	</ul>
 
 	<p>
 		<a href="https:/www.mihivai.com" target="_blank"> 
 			Mihivai
 		</a>
 	</p>
-	
+
+	<iframe width="400" height="300" src="https://www.youtube.com/embed/uRSllCxFp-g" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+
+
+<!-- Button trigger modal -->
+	<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+	  Mon bouton
+	</button>
+
+	<!-- Modal -->
+	<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <h5 class="modal-title" id="exampleModalLabel">Mon titre</h5>
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	          <span aria-hidden="true">&times;</span>
+	        </button>
+	      </div>
+	      <div class="modal-body">
+	        Développement Web
+	Accompagner, Transmettre, Innover
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+	        <button type="button" class="btn btn-danger">Save changes</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-4">
+				<div class="box-green">Riri</div>
+			</div>
+			<div class="col-4">
+
+				<div class="box-green">Fifi</div>
+			</div>
+			<div class="col-4">
+				<div class="box-green">Loulou</div>
+			</div>
+			
+		</div>
+	</div>
+
+
+
+
+<!--
+	<div class="box-black">
+		<div class="box-green width-100px"></div>
+		<div class="box-yellow"></div>
+		<div class="box-red width-100px"></div>
+	</div>
+-->
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
 
 </body>
 </html>
