@@ -1,6 +1,6 @@
 body{
 	font-family: 'Noto Serif', serif;
-	background: #F0D98D;
+	background: #E8E7D5;
 	text-align: center; 
 }
 
@@ -11,28 +11,46 @@ h1{
 
 }
 
-p{
-	font-size: 22px;
+h3{
+	font-size: 20px; 
 
 }
 
+h4{
+	font-size:20px;
+	margin-top:10px;
+}
+
+p{
+	font-size:16px;
+	font-family: 'Rokkitt', serif;
+}
+
 .banner{
+	
 	background: linear-gradient(90deg, rgba(10, 10, 10, 0.6), rgba(200,200,200,0.6)), url("images/Banner-punch.jpg");
 	background-size: cover;
-	padding:70px;
+	padding:50px;
 	background-size:1400px;
 	object-fit:cover;
-	background-position: center;	
+	background-position: center;
+	position:relative;
+
+
 }
 
 .nav-link{
 	color:white;
 	font-weight: bold;
+	font-size:16px;
+
 }
+
 
 h2{
 	font-weight: lighter;
-	color: white;
+	color: #D18377;
+
 }
 
 	
@@ -45,9 +63,17 @@ img{
  
 }
 
+h3{
+	font-size:23px;
+	
+}
+
+
 .box-beige{
-	background: #FFFDD7; 
+	background: #FFF1D6; 
 	border-radius: 5px;
+	padding:20px;
+	margin-top:30px;
 	
 
 }
@@ -55,6 +81,19 @@ img{
 .section{
 	padding:50px;
 }
+
+
+.footer{
+	font-size: 40px;
+	background:#FFFDD7;
+	text-align:left;
+	padding:20px;
+
+}
+
+
+
+
 
 
 
