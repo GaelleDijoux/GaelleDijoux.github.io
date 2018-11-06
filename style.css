@@ -1,1 +1,57 @@
-style.css
+body{
+	font-family: 'Noto Serif', serif;
+	background: #F0D98D;
+	text-align: center; 
+}
+
+h1{
+	color:white;
+	font-size: 40px; 
+	font-weight: bold;
+
+}
+
+p{
+	font-size: 22px;
+
+}
+
+.banner{
+	background: linear-gradient(90deg, rgba(10, 10, 10, 0.6), rgba(200,200,200,0.6)), url("images/Banner-punch.jpg");
+	background-size: cover;
+	padding:100px;
+	background-size:1400px;
+	object-fit:cover;
+	background-position: center;
+
+	
+}
+
+h2{
+	font-weight: lighter;
+	color: white;
+}
+
+	
+img{
+	height: 200px;
+  	width: 200px;
+  	border-radius:5px;
+  	object-fit: cover;
+  	margin:20px;
+ 
+}
+
+.box-beige{
+	background: #FFFDD7; 
+	border-radius: 5px;
+	
+
+}
+
+.section{
+	padding:50px;
+}
+
+
+
