@@ -19,12 +19,15 @@ p{
 .banner{
 	background: linear-gradient(90deg, rgba(10, 10, 10, 0.6), rgba(200,200,200,0.6)), url("images/Banner-punch.jpg");
 	background-size: cover;
-	padding:100px;
+	padding:70px;
 	background-size:1400px;
 	object-fit:cover;
-	background-position: center;
+	background-position: center;	
+}
 
-	
+.nav-link{
+	color:white;
+	font-weight: bold;
 }
 
 h2{
