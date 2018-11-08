@@ -8,6 +8,7 @@ h1{
 	color:white;
 	font-size: 40px; 
 	font-weight: bold;
+	text-shadow: 2px 2px 10px grey;
 
 }
 
@@ -15,6 +16,7 @@ h1{
 h2{
 	font-weight: lighter;
 	color:white;
+	text-shadow: 2px 2px 10px grey;
 }
 
 h3{
@@ -53,6 +55,18 @@ p{
 
 }
 
+.logo{
+	position:absolute;
+	top:10px;
+	left:10px;
+	background:white;
+	border-radius:50%;
+	width:70px;
+	height:70px;
+	box-shadow: 2px 2px 10px grey;
+	object-fit:cover;
+	border:pink;
+}
 	
 img{
 	height: 200px;
