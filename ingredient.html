@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
+
 	<meta charset="utf-8">
-	<title>Les ingrédients</title>
+	<title>Punch des îles</title>
 
 	<link href="https://fonts.googleapis.com/css?family=Noto+Serif" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Rokkitt" rel="stylesheet">
 
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
@@ -12,25 +14,237 @@
 
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 
+
+
 </head>
 <body>
+
 	<div class="banner">
-		
 		<ul class="nav justify-content-end">
 		  <li class="nav-item">
 		    <a class="nav-link active" href="index.html">Accueil</a>
 		  </li>
 		  <li class="nav-item">
-		    <a class="nav-link" href="#">Les ingrédients</a>
+		    <a class="nav-link" href="ingredient.html">Les ingrédients</a>
 		  </li>
 		  <li class="nav-item">
-		    <a class="nav-link" href="#">Nous contacter</a>
+		    <a class="nav-link" href="histoire.html">Qui sommes-nous?</a>
 		  </li>
 		</ul>
-		<h1> Saveurs créoles </h1>
-		<h2>Mon punch des îles</h2>	
+		<img src="images/logo.png" class="logo">
+		<h1 id="titre1"> Saveurs créoles </h1>
+		<h2 id="titre2"> Mon punch des îles</h2>	
+				<!-- Button trigger modal -->
+		<button type="button" class="btn btn-outline-light" data-toggle="modal" data-target="#exampleModalCenter">
+		  Nous contacter
+		</button>
 
+		<!-- Modal -->
+		<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+		  <div class="modal-dialog modal-dialog-centered" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h5 class="modal-title" id="exampleModalCenterTitle">Nous contacter</h5>
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		          <span aria-hidden="true">&times;</span>
+		        </button>
+		      </div>
+		      <div class="modal-body">
+		        
+				<div id="wufoo-mk3y9y50qixek4">
+				Fill out my <a href="https://gaelledijoux.wufoo.com/forms/mk3y9y50qixek4">online form</a>.
+				</div>
+				<div id="wuf-adv" style="font-family:inherit;font-size: small;color:#a7a7a7;text-align:center;display:block;">There are tons of <a href="http://www.wufoo.com/features/">Wufoo features</a> to help make your forms awesome.</div>
+				<script type="text/javascript">var mk3y9y50qixek4;(function(d, t) {
+				var s = d.createElement(t), options = {
+				'userName':'gaelledijoux',
+				'formHash':'mk3y9y50qixek4',
+				'autoResize':true,
+				'height':'580',
+				'async':true,
+				'host':'wufoo.com',
+				'header':'show',
+				'ssl':true};
+				s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
+				s.onload = s.onreadystatechange = function() {
+				var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+				try { mk3y9y50qixek4 = new WufooForm();mk3y9y50qixek4.initialize(options);mk3y9y50qixek4.display(); } catch (e) {}};
+				var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+				})(document, 'script');</script>
+
+
+
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-secondary" data-dismiss="modal">Annuler</button>
+		        <button type="button" class="btn btn-primary">Envoyer</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+			</div>
+	<div class="section">
+		<h3>Les ingrédients</h3>
+		<h4>Le punch "saveurs créoles" est fait à base de produits de qualité. Ces ingrédients ont été choisis scrupuleusement au coeur de l'île de la Réunion.</h4>
+		
+	
+	
+		<div class="container">
+     	   <div class="row">
+        	   	<div class="col-md-3 col-12">
+            	 	<div class="box-beige3">
+						<h4>La vanille Bourbon</h4>
+						<img src="images/vanille.jpg">
+						<p> La Vanille Bourbon utilisée par « Saveurs Créoles » est cultivée en sous-bois par les producteurs essentiellement installés sur la côte est de l’île, entre les communes de Sainte-Suzanne et Saint-Joseph. Grace à des techniques de fabrication ancestrales, ses gousses brunes et fines achalent le plus doux des parfums. 
+						</p>
+					</div>
+				</div>
+
+
+				<div class="col-md-3 col-12">
+             		<div class="box-beige3">
+             			<h4>La noix de muscade </h4>	
+						<img src="images/muscade.jpg">
+						<p></p>
+					</div>
+				</div>
+
+ 				<div class="col-md-3 col-12">
+             		<div class="box-beige3">
+						<h4>Le Clous de Girofle</h4>
+						<img src="images/girofle.jpg">
+						<p>Les clous de girofle ont un arôme pénétrant, chaud et riche. Le clous de girofle est récolté par nos producteurs locaux installés aux quatre coins de l’île, lorsqu'il se teinte de rose. Il est ensuite séché au soleil et prend alors une couleur brun foncé.</p>
+					</div>
+				</div>
+
+
+				 	<div class="col-md-3 col-12">
+            	 	<div class="box-beige3">
+						<h4>Citron</h4>
+						<img src="images/Citron.jpg">
+						<p>Ananas Victoria, mangues, fruits de la passion, goyaves sont réunis dans cette recette pour procurer des sensations inédites. Cet équilibre parfait procure un concentré d’exotisme.</p>
+					</div>
+				</div>
+
+				<div class="col-md-3 col-12">
+             		<div class="box-beige3">
+						<h4>La Canelle</h4>
+						<img src="images/canelle.jpg">
+						<p>Avec sa robe de couleur chair rosée, le punch letchid traditionnel Saveurs Créoles est élaboré à partir très concentrés en arômes. Ce punch étonne par sa finale persistante et fruitée.</p>
+					</div>
+				</div>
+
+
+				<div class="col-md-3 col-12">
+             		<div class="box-beige3">
+             			<h4>La noix de Coco</h4>	
+						<img src="images/coco.jpg">
+						<p>La douceur de la noix de coco et les mélanges délicats faits sur le Punch Coco permet de sentir l'onctueusité et la puissance des aromes du coco comme on le connait à l'ile de la Réunion.</p>
+					</div>
+				</div>
+
+ 				
+
+				 <div class="col-md-3 col-12">
+            	 	<div class="box-beige3">
+						<h4>L'ananas Victoria</h4>
+						<img src="images/ananas.jpg">
+						<p>Avec sa robe de couleur chair rosée, le punch letchid traditionnel Saveurs Créoles est élaboré à partir très concentrés en arômes. Ce punch étonne par sa finale persistante et fruitée.</p>
+					</div>
+				</div>
+
+
+				<div class="col-md-3 col-12">
+             		<div class="box-beige3">
+             			<h4>La Goyave</h4>	
+						<img src="images/goyave.jpg">
+						<p>La douceur de la noix de coco et les mélanges délicats faits sur le Punch Coco permet de sentir l'onctueusité et la puissance des aromes du coco comme on le connait à l'ile de la Réunion.</p>
+					</div>
+				</div>
+
+ 				<div class="col-md-3 col-12">
+             		<div class="box-beige3">
+						<h4>La Grenade</h4>
+						<img src="images/grenade.jpg">
+						<p>Avec sa robe de couleur chair rosée, le punch letchid traditionnel Saveurs Créoles est élaboré à partir très concentrés en arômes. Ce punch étonne par sa finale persistante et fruitée.</p>
+					</div>
+				</div>
+
+				<div class="col-md-3 col-12">
+             		<div class="box-beige3">
+             			<h4>Le Letchis</h4>	
+						<img src="images/letchis.jpg">
+						<p>La douceur de la noix de coco et les mélanges délicats faits sur le Punch Coco permet de sentir l'onctueusité et la puissance des aromes du coco comme on le connait à l'ile de la Réunion.</p>
+					</div>
+				</div>
+
+				<div class="col-md-3 col-12">
+             		<div class="box-beige3">
+						<h4>Le Rhum Blanc</h4>
+						<img src="images/rhum.png">
+						<p>Avec sa robe de couleur chair rosée, le punch letchid traditionnel Saveurs Créoles est élaboré à partir très concentrés en arômes. Ce punch étonne par sa finale persistante et fruitée.</p>
+					</div>
+				</div>
+
+
+				<div class="col-md-3 col-12">
+             		<div class="box-beige3">
+             			<h4>Sirop de canne</h4>	
+						<img src="images/canne.jpg">
+						<p>La douceur de la noix de coco et les mélanges délicats faits sur le Punch Coco permet de sentir l'onctueusité et la puissance des aromes du coco comme on le connait à l'ile de la Réunion.</p>
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
+	
+<!-- Begin Mailchimp Signup Form -->
+	<link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+	<style type="text/css">
+		#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica, 'Noto Serif',sans-serif; }
+		/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+		   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+	</style>
+	<div id="mc_embed_signup">
+	<form action="https://github.us19.list-manage.com/subscribe/post?u=beb2b7975a25a383bc70dcfb8&amp;id=0f1c2b34fe" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+	    <div id="mc_embed_signup_scroll">
+		<h3>Recevez notre Newsletter</h3>
+	<div class="indicates-required"><span class="asterisk"></span>Suivez notre actualités et soyez au courant de tous nos évenements. Soyez les premiers à recevoir toutes nos offres promotionnelles et nos nouveautés.</div>
+	<div class="mc-field-group">
+		<label for="mce-EMAIL">Adresse Email: <span class="asterisk"></span>
+	</label>
+		<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+	</div>
+		<div id="mce-responses" class="clear">
+			<div class="response" id="mce-error-response" style="display:none"></div>
+			<div class="response" id="mce-success-response" style="display:none"></div>
+		</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+	    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_beb2b7975a25a383bc70dcfb8_0f1c2b34fe" tabindex="-1" value=""></div>
+	    <div class="clear"><input type="submit" value="Souscrire" name="suscribe" id="mc-embedded-subscribe" class="button"></div>
+	    </div>
+	</form>
+	</div>
+	<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+	<!--End mc_embed_signup-->
+	<!--End mc_embed_signup-->
+
+	<div class="footer">
+		<ul class=list-inline">
+			<li class="list-inline-item">
+				<i class="fab fa-facebook icon-blue"></i></li>
+			<li class="list-inline-item">
+				<i class="fab fa-twitter-square"></i></li>
+			<li class="list-inline-item">
+				<i class="fab fa-instagram"></i></li>
+		</ul>
+	</div>
+	
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
 
 </body>
 </html>

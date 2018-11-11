@@ -26,8 +26,7 @@ h3{
 
 h4{
 	font-size:20px;
-
-
+	
 }
 
 p{
@@ -44,8 +43,6 @@ p{
 	object-fit:cover;
 	background-position: center;
 	position:relative;
-
-
 }
 
 .nav-link{
@@ -73,7 +70,8 @@ img{
   	width: 200px;
   	border-radius:5px;
   	object-fit: cover;
-  	margin:20px;
+  	margin-top:20px;
+  	margin-bottom:20px;
  
 }
 
@@ -82,9 +80,24 @@ img{
 	background: rgb(240,240,240); 
 	border-radius: 5px;
 	padding:20px;
-	margin-top:30px;
-	
+	margin-bottom:30px;
+	height:450px;
+}
 
+.box-beige2{
+	background: rgb(240,240,240); 
+	border-radius: 5px;
+	padding:20px;
+	margin-bottom:30px;
+	height:250px;
+}
+
+.box-beige3{
+	background: rgb(240,240,240); 
+	border-radius: 5px;
+	padding:20px;
+	margin-bottom:30px;
+	height:560px;
 }
 
 .section{
@@ -100,9 +113,41 @@ img{
 
 }
 
+a{
+	color:black;
+	font-size:20px;
+}
+
+a:hover{
+	color:#D18377;
+}
 
 
+li{
+	list-style: none;
+}
 
+.button{
+	padding:10px; 
+	border-radius:5px;
+	font-weight: bold;
+	font-size:16px;
+	background:#AD5648;
+	color:white;
+	margin-bottom: 20px;
+}
 
+.button:hover{
+	background:#D18377;
+}
 
+.indicates-required{
+	font-family: 'Noto Serif', serif;
+	font-size:16px;
+}
+
+.mc-field-group{
+	font-family: 'Noto Serif', serif;
+	font-size:16px;
+}
 
