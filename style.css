@@ -2,6 +2,7 @@ body{
 	font-family: 'Noto Serif', serif;
 	background:#FCFEF5 ;
 	text-align: center; 
+	height:100%;
 }
 
 h1{
@@ -55,7 +56,13 @@ p{
 	color:white;
 	font-weight: bold;
 	font-size:16px;
+	text-decoration: none;
+}
 
+
+.dropdown-item{
+	font-size:14px;
+	text-deoration:none;	
 }
 
 .logo{
@@ -128,191 +135,27 @@ img{
 	background:rgb(240,240,240);
 	text-align:left;
 	padding:20px;
+	display: flex;
 	position: relative;
+	
 }
 
 .contact{
-	position:relative;
-	left:10px;
-}
-a{
-	color:black;
-	font-size:20px;
-}
-
-a:hover{
-	color:#D18377;
-}
-
-
-li{
-	list-style: none;
-}
-
-.button{
-	padding:10px; 
-	border-radius:5px;
-	font-weight: bold;
-	font-size:16px;
-	background:#AD5648;
-	color:white;
-	margin-bottom: 20px;
-}
-
-.button:hover{
-	background:#D18377;
-}
-
-.indicates-required{
-	font-family: 'Noto Serif', serif;
-	font-size:16px;
-}
-
-.mc-field-group{
-	font-family: 'Noto Serif', serif;
-	font-size:16px;
-}
-
-body{
-	font-family: 'Noto Serif', serif;
-	background:#FCFEF5 ;
-	text-align: center; 
-}
-
-h1{
-	color:white;
-	font-size: 40px; 
-	font-weight: bold;
-	text-shadow: 2px 2px 10px grey;
-
-}
-
-
-h2{
-	font-weight: lighter;
-	color:white;
-	text-shadow: 2px 2px 10px grey;
-}
-
-h3{
-	font-size: 26px; 
-	color: #D18377;	
-}
-
-h4{
-	font-size:22px;
-	font-family: 'Crimson Text', serif;
-	
-}
-
-h5{
-	font-size:22px;
-	font-family: 'Crimson Text', serif;
-}
-
-p{
-	font-size:16px;
-	font-family: 'Rokkitt', serif;
-}
-
-.banner{
-	
-	background: linear-gradient(90deg, rgba(10, 10, 10, 0.6), rgba(200,200,200,0.6)), url("images/Banner-punch.jpg");
-	background-size: cover;
-	padding:50px;
-	background-size:1400px;
-	object-fit:cover;
-	background-position: center;
-	position:relative;
-}
-
-.nav-link{
-	color:white;
-	font-weight: bold;
-	font-size:16px;
-
-}
-
-.logo{
 	position:absolute;
 	top:10px;
-	left:10px;
-	background:white;
-	border-radius:50%;
-	width:70px;
-	height:70px;
-	box-shadow: 2px 2px 10px grey;
-	object-fit:cover;
-	border:pink;
-}
+	right:10px;
+	text-align: right;
 	
-img{
-	height: 200px;
-  	width: 200px;
-  	border-radius:5px;
-  	object-fit: cover;
-  	margin-top:20px;
-  	margin-bottom:20px;
- 
 }
 
-
-.box-beige{
-	background: rgb(240,240,240); 
-	border-radius: 5px;
-	padding:20px;
-	margin-bottom:30px;
-	height:450px;
-	margin-top:20px;
-}
-
-.box-beige2{
-	background: rgb(240,240,240); 
-	border-radius: 5px;
-	padding:20px;
-	margin-bottom:30px;
-	height:250px;
-	margin-top:20px;
-}
-
-.box-beige3{
-	background: rgb(240,240,240); 
-	border-radius: 5px;
-	padding:20px;
-	margin-bottom:30px;
-	height:560px;
-	margin-top:20px;
-}
-
-.box-beige4{
-	background: rgb(240,240,240); 
-	border-radius: 5px;
-	padding:20px;
-	margin-bottom:30px;
-	height:430px;
-	margin-top:20px;
-}
-
-.section{
-	padding:50px;
-}
-
-
-.footer{
-	font-size: 40px;
-	background:rgb(240,240,240);
-	text-align:left;
-	padding:20px;
-	position: relative;
-}
-
-.contact{
-	position:relative;
+.list-inline{
+	position:absolute;
 	left:10px;
 }
 a{
 	color:black;
 	font-size:20px;
+	text-decoration:underline;
 }
 
 a:hover{
@@ -347,4 +190,11 @@ li{
 	font-family: 'Noto Serif', serif;
 	font-size:16px;
 }
+
+.mail{
+	font-size:16px;
+	font-family: 'Rokkitt', serif;
+	text-decoration: underline;
+}
+
 

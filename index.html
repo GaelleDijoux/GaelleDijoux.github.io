@@ -7,6 +7,7 @@
 
 	<link href="https://fonts.googleapis.com/css?family=Noto+Serif" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Rokkitt" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
 
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
@@ -21,15 +22,46 @@
 
 	<div class="banner">
 		<ul class="nav justify-content-end">
-		  <li class="nav-item">
-		    <a class="nav-link active" href="index.html">Accueil</a>
-		  </li>
-		  <li class="nav-item">
-		    <a class="nav-link" href="ingredient.html">Les ingrédients</a>
-		  </li>
-		  <li class="nav-item">
-		    <a class="nav-link" href="histoire.html">Qui sommes-nous?</a>
-		  </li>
+		  	<li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="index.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Accueil
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#anchorproduits">Nos produits</a>
+          <a class="dropdown-item" href="#anchorrecettes">Nos recettes</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#anchorplus">Le petit plus</a>
+        </div>
+      </li>
+		   <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="ingredient.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Les ingrédients
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#anchor1">La vanille</a>
+          <a class="dropdown-item" href="#anchor1">Noix de muscade</a>
+          <a class="dropdown-item" href="#anchor1">Clous de girofle</a>
+          <a class="dropdown-item" href="#anchor1">Citron</a>
+          <a class="dropdown-item" href="#anchor2">Canelle</a>
+          <a class="dropdown-item" href="#anchor2">Noix de coco</a>
+          <a class="dropdown-item" href="#anchor2">Ananas Victoria</a>
+          <a class="dropdown-item" href="#anchor2">Goyave</a>
+          <a class="dropdown-item" href="#anchor3">Grenade</a>
+          <a class="dropdown-item" href="#anchor3">Letchis</a>
+          <a class="dropdown-item" href="#anchor3">Rhum Blanc</a>
+          <a class="dropdown-item" href="#anchor3">Sirop de canne</a>
+        
+      </li>
+        <a class="nav-link dropdown-toggle" href="histoire.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Qui sommes-nous?
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#anchorhistoire">Notre histoire</a>
+          <a class="dropdown-item" href="#anchorvaleur">Nos valeurs</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#anchorcontact">Nous contacter</a>
+        </div>
+      </li>
 		</ul>
 		<img src="images/logo.png" class="logo">
 		<h1 id="titre1"> Saveurs créoles </h1>
@@ -38,6 +70,8 @@
 		<button type="button" class="btn btn-outline-light" data-toggle="modal" data-target="#exampleModalCenter">
 		  Nous contacter
 		</button>
+
+
 
 		<!-- Modal -->
 		<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
@@ -85,7 +119,8 @@
 
 	<div class="section">
 		<h3>Nos produits</h3>
-		<h4>Le punch "saveurs créoles" fait à base de produits locaux pour retrouver les goûts "d'antan" de l'île de la Réunion. Ses saveurs et sa fabrication traditionnelles font de notre punch un produit d'exception.</h4>
+		<h4>Le punch "saveurs créoles" fait à base de produits locaux pour retrouver les goûts "d'antan" de l'île de la Réunion.
+		<br />Ses saveurs et sa fabrication traditionnelles font de notre punch un produit d'exception.</h4>
 		
 	
 	
@@ -96,6 +131,7 @@
 						<a href="#anchor">Punch exotique</a>
 						<img src="images/punch-exotique.png">
 						<p>Ananas Victoria, mangues, fruits de la passion, goyaves sont réunis dans cette recette pour procurer des sensations inédites. Cet équilibre parfait procure un concentré d’exotisme.</p>
+						
 					</div>
 				</div>
 
@@ -105,6 +141,7 @@
              			<a href="#anchor">Punch coco</a> 
 						<img src="images/punch-coco.png">
 						<p>La douceur de la noix de coco et les mélanges délicats faits sur le Punch Coco permet de sentir l'onctueusité et la puissance des aromes du coco comme on le connait à l'ile de la Réunion.</p>
+						
 					</div>
 				</div>
 
@@ -113,6 +150,7 @@
 						<a href="#anchor">Punch letchis</a>
 						<img src="images/punch-letchis.png">
 						<p>Avec sa robe de couleur chair rosée, le punch letchid traditionnel Saveurs Créoles est élaboré à partir très concentrés en arômes. Ce punch étonne par sa finale persistante et fruitée.</p>
+						
 					</div>
 				</div>
 			</div>
@@ -120,6 +158,8 @@
 	
 
 	<h3 id="anchor">Nos recettes</h3>
+	<h4>Nous utilisons, pour élaborer ses recettes, essentiellement des produits issus de l'agriculture locale. 
+	<br />Fort de notre expérience, nous avons trouvé au fil des années, des techniques pour obtenir un punch parfait à la dégustation.</h4>
 
 		<div class="container">
      	   <div class="row">
@@ -166,9 +206,10 @@
 
 
 	<h3>Le petit plus</h3>
-	<h4>Avec sa robe de couleur chair rosée, le punch letchid traditionnel Saveurs Créoles est élaboré à partir très concentrés en arômes. Ce punch étonne par sa finale persistante et fruitée.</h4>
+	<h4>Bien plus que ses saveurs, l'île de la Réunion possède une mutitude de richesses.
+	<br />Saveurs Créoles, en partenariat avec l'office de tourisme de la Réunion souhaite vous faire découvrir toutes ses valeurs, cultures, religions et traditions.</h4>
 
-	<iframe width="600" height="400" src="https://www.youtube.com/embed/LTdI_LQVVJg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<iframe width="550" height="350" src="https://www.youtube.com/embed/LTdI_LQVVJg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 	</div>
 
@@ -202,6 +243,7 @@
 	<!--End mc_embed_signup-->
 	<!--End mc_embed_signup-->
 
+
 	<div class="footer">
 		<ul class=list-inline">
 			<li class="list-inline-item">
@@ -211,6 +253,12 @@
 			<li class="list-inline-item">
 				<i class="fab fa-instagram"></i></li>
 		</ul>
+		<div class="contact"><p><u>Nous contacter:</u>
+			<br/>+33 6 68 65 36 06
+			<br/>servicesclient@saveurscréoles.com
+			<br/>
+		</p>
+		</div>
 	</div>
 	
 

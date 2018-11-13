@@ -7,6 +7,7 @@
 
 	<link href="https://fonts.googleapis.com/css?family=Noto+Serif" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Rokkitt" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
 
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
@@ -21,15 +22,46 @@
 
 	<div class="banner">
 		<ul class="nav justify-content-end">
-		  <li class="nav-item">
-		    <a class="nav-link active" href="index.html">Accueil</a>
-		  </li>
-		  <li class="nav-item">
-		    <a class="nav-link" href="ingredient.html">Les ingrédients</a>
-		  </li>
-		  <li class="nav-item">
-		    <a class="nav-link" href="histoire.html">Qui sommes-nous?</a>
-		  </li>
+		  	<li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="index.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Accueil
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#anchorproduits">Nos produits</a>
+          <a class="dropdown-item" href="#anchorrecettes">Nos recettes</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#anchorplus">Le petit plus</a>
+        </div>
+      </li>
+		   <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="ingredient.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Les ingrédients
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#anchor1">La vanille</a>
+          <a class="dropdown-item" href="#anchor1">Noix de muscade</a>
+          <a class="dropdown-item" href="#anchor1">Clous de girofle</a>
+          <a class="dropdown-item" href="#anchor1">Citron</a>
+          <a class="dropdown-item" href="#anchor2">Canelle</a>
+          <a class="dropdown-item" href="#anchor2">Noix de coco</a>
+          <a class="dropdown-item" href="#anchor2">Ananas Victoria</a>
+          <a class="dropdown-item" href="#anchor2">Goyave</a>
+          <a class="dropdown-item" href="#anchor3">Grenade</a>
+          <a class="dropdown-item" href="#anchor3">Letchis</a>
+          <a class="dropdown-item" href="#anchor3">Rhum Blanc</a>
+          <a class="dropdown-item" href="#anchor3">Sirop de canne</a>
+        
+      </li>
+        <a class="nav-link dropdown-toggle" href="histoire.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Qui sommes-nous?
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#anchorhistoire">Notre histoire</a>
+          <a class="dropdown-item" href="#anchorvaleur">Nos valeurs</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#anchorcontact">Nous contacter</a>
+        </div>
+      </li>
 		</ul>
 		<img src="images/logo.png" class="logo">
 		<h1 id="titre1"> Saveurs créoles </h1>
@@ -85,7 +117,8 @@
 			</div>
 	<div class="section">
 		<h3>Les ingrédients</h3>
-		<h4>Le punch "saveurs créoles" est fait à base de produits de qualité. Ces ingrédients ont été choisis scrupuleusement au coeur de l'île de la Réunion.</h4>
+		<h4>Le punch "saveurs créoles" est fait à base de produits de qualité. 
+		<br />Ces ingrédients ont été choisis scrupuleusement par nos experts pour éveiller vos sens.</h4>
 		
 	
 	
@@ -93,7 +126,7 @@
      	   <div class="row">
         	   	<div class="col-md-3 col-12">
             	 	<div class="box-beige3">
-						<h4>La vanille Bourbon</h4>
+						<h4 id="anchor1">La vanille Bourbon</h4>
 						<img src="images/vanille.jpg">
 						<p> La Vanille Bourbon utilisée par « Saveurs Créoles » est cultivée en sous-bois par les producteurs essentiellement installés sur la côte est de l’île, entre les communes de Sainte-Suzanne et Saint-Joseph. Grace à des techniques de fabrication ancestrales, ses gousses brunes et fines achalent le plus doux des parfums. 
 						</p>
@@ -105,7 +138,7 @@
              		<div class="box-beige3">
              			<h4>La noix de muscade </h4>	
 						<img src="images/muscade.jpg">
-						<p></p>
+						<p>La noix de muscade est une épice à la saveur chaude et légèrement sucrée qu'il faut utilisée avec parcimonie car elle est puissante. Nous l’utilisons dans nos recettes pour relever le goût du punch et ainsi en faire une boisson exceptionnelle. </p>
 					</div>
 				</div>
 
@@ -113,7 +146,7 @@
              		<div class="box-beige3">
 						<h4>Le Clous de Girofle</h4>
 						<img src="images/girofle.jpg">
-						<p>Les clous de girofle ont un arôme pénétrant, chaud et riche. Le clous de girofle est récolté par nos producteurs locaux installés aux quatre coins de l’île, lorsqu'il se teinte de rose. Il est ensuite séché au soleil et prend alors une couleur brun foncé.</p>
+						<p>Les clous de girofle ont un arôme pénétrant, chaud et riche. Ils sont récoltés par nos producteurs locaux installés aux quatre coins de l’île, lorsqu'il se teinte de rose pour ensuite être séchés au soleil et prend alors une couleur brun foncé.</p>
 					</div>
 				</div>
 
@@ -121,16 +154,16 @@
 				 	<div class="col-md-3 col-12">
             	 	<div class="box-beige3">
 						<h4>Citron</h4>
-						<img src="images/Citron.jpg">
-						<p>Ananas Victoria, mangues, fruits de la passion, goyaves sont réunis dans cette recette pour procurer des sensations inédites. Cet équilibre parfait procure un concentré d’exotisme.</p>
+						<img src="images/citron.jpg">
+						<p>Le citronier a besoin de soleil et de chaleur, sa culture est donc favorisée à La Réunion. Le citronnier offre un beau feuillage, une floraison parfumée et de bons citrons juteux tout au long de l'année. Le citron apporte  Une acidité mordante, iodée, pas épicée, très vive à nos compositions.</p>
 					</div>
 				</div>
 
 				<div class="col-md-3 col-12">
              		<div class="box-beige3">
-						<h4>La Canelle</h4>
+						<h4 id="anchor2">La Canelle</h4>
 						<img src="images/canelle.jpg">
-						<p>Avec sa robe de couleur chair rosée, le punch letchid traditionnel Saveurs Créoles est élaboré à partir très concentrés en arômes. Ce punch étonne par sa finale persistante et fruitée.</p>
+						<p>La cannelle est une substance végétale aromatique provenant de l'écorce interne du cannelier. Sa forme d’origine ressemble à de petits tubes, mais on la consomme souvent moulue. Très appréciée pour sa saveur parfumée, elle est également riche en antioxydants potentiellement bénéfiques pour la santé.</p>
 					</div>
 				</div>
 
@@ -139,7 +172,7 @@
              		<div class="box-beige3">
              			<h4>La noix de Coco</h4>	
 						<img src="images/coco.jpg">
-						<p>La douceur de la noix de coco et les mélanges délicats faits sur le Punch Coco permet de sentir l'onctueusité et la puissance des aromes du coco comme on le connait à l'ile de la Réunion.</p>
+						<p>Cet arbre plein de richesses est un palmier qui pousse dans les milieux tropicaux et donne des fruits toute l'année.  Lisse, il est de couleur vert clair quand il n'est pas mûr et orangé brun quand la noix est à maturité. La baie de Saint-Paul est l’endroit parfait pour admirer les longues allées de cocotier. </p>
 					</div>
 				</div>
 
@@ -149,7 +182,7 @@
             	 	<div class="box-beige3">
 						<h4>L'ananas Victoria</h4>
 						<img src="images/ananas.jpg">
-						<p>Avec sa robe de couleur chair rosée, le punch letchid traditionnel Saveurs Créoles est élaboré à partir très concentrés en arômes. Ce punch étonne par sa finale persistante et fruitée.</p>
+						<p>L'ananas fait l'objet d'une culture intensive, qui en fait pour l'île l'une des toutes premières cultures fruitières. On en retrouve dans de nombreuses zones, mais essentiellement sur Petite île, le long de la rivière Langevin ou à proximité de Saint Benoit. L'ananas victoria à la réputation d'être sucrée et très parfumée.</p>
 					</div>
 				</div>
 
@@ -158,15 +191,15 @@
              		<div class="box-beige3">
              			<h4>La Goyave</h4>	
 						<img src="images/goyave.jpg">
-						<p>La douceur de la noix de coco et les mélanges délicats faits sur le Punch Coco permet de sentir l'onctueusité et la puissance des aromes du coco comme on le connait à l'ile de la Réunion.</p>
+						<p>Cette myrtacée pousse un peu partout dans les jardins de l'île. Blanche, jaune ou rose orangée. La goyave a une saveur douce, musquée et très aromatique, ce qui est normal pour un fruit de la même famile que la cannelle, du girofle ou de la muscade.</p>
 					</div>
 				</div>
 
  				<div class="col-md-3 col-12">
              		<div class="box-beige3">
-						<h4>La Grenade</h4>
+						<h4 id="anchor3">La Grenade</h4>
 						<img src="images/grenade.jpg">
-						<p>Avec sa robe de couleur chair rosée, le punch letchid traditionnel Saveurs Créoles est élaboré à partir très concentrés en arômes. Ce punch étonne par sa finale persistante et fruitée.</p>
+						<p>Le grenadier est présent depuis fort longtemps à la Réunion. Arbuste buissonnant, il reste de petite taille (3 m maximum). Très souvent cultivé à des fins ornementales on en retrouve fréquemment dans les jardins créoles. Il est même naturalisé dans les hauteurs de Saint Leu</p>
 					</div>
 				</div>
 
@@ -174,15 +207,15 @@
              		<div class="box-beige3">
              			<h4>Le Letchis</h4>	
 						<img src="images/letchis.jpg">
-						<p>La douceur de la noix de coco et les mélanges délicats faits sur le Punch Coco permet de sentir l'onctueusité et la puissance des aromes du coco comme on le connait à l'ile de la Réunion.</p>
+						<p>Fruit roi des tables réunionnaises, le Letchi est attendu et guetté avant son arrivée. L'arbre, très commun à la réunion peut atteindre des dimensions imposantes. Son goût très sucré permet d’obtenir des goûts très prononcés et somptueux. </p>
 					</div>
 				</div>
 
 				<div class="col-md-3 col-12">
              		<div class="box-beige3">
 						<h4>Le Rhum Blanc</h4>
-						<img src="images/rhum.png">
-						<p>Avec sa robe de couleur chair rosée, le punch letchid traditionnel Saveurs Créoles est élaboré à partir très concentrés en arômes. Ce punch étonne par sa finale persistante et fruitée.</p>
+						<img src="images/rhum.PNG">
+						<p>Véritable emblème de la culture créole, le Rhum Blanc s’inscrit dans le patrimoine gustatif de la Réunion. Depuis 1943, Saveurs Créoles fait perdurer la tradition et affirme son identité de rhumier en distillant des Rhums Blancs devenus références.</p>
 					</div>
 				</div>
 
@@ -191,7 +224,7 @@
              		<div class="box-beige3">
              			<h4>Sirop de canne</h4>	
 						<img src="images/canne.jpg">
-						<p>La douceur de la noix de coco et les mélanges délicats faits sur le Punch Coco permet de sentir l'onctueusité et la puissance des aromes du coco comme on le connait à l'ile de la Réunion.</p>
+						<p>Le concentré de jus de canne à sucre, aussi appellé  « Sirop la cuite »   est directement issu de la défibrillation de la canne, juste avant la cristallisation pour la fabrication des sucres. De ce fait il contient donc tout le sucre, les parfums,les oligo-éléments et les sels minéraux de la canne à sucre.</p>
 					</div>
 				</div>
 			</div>
@@ -237,6 +270,12 @@
 			<li class="list-inline-item">
 				<i class="fab fa-instagram"></i></li>
 		</ul>
+		<div class="contact"><p><u>ous contacter:</u>
+			<br/>+33 6 68 65 36 06
+			<br/>servicesclient@saveurscreoles.com
+			<br/>
+		</p>
+		</div>
 	</div>
 	
 
