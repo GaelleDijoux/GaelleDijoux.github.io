@@ -23,6 +23,7 @@ h2{
 h3{
 	font-size: 26px; 
 	color: #D18377;	
+	text-decoration: none;
 }
 
 h4{
@@ -62,7 +63,7 @@ p{
 
 .dropdown-item{
 	font-size:14px;
-	text-deoration:none;	
+	text-decoration:none;	
 }
 
 .logo{
