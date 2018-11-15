@@ -2,7 +2,6 @@ body{
 	font-family: 'Noto Serif', serif;
 	background:#FCFEF5 ;
 	text-align: center; 
-	height:100%;
 }
 
 h1{
@@ -10,7 +9,6 @@ h1{
 	font-size: 40px; 
 	font-weight: bold;
 	text-shadow: 2px 2px 10px grey;
-
 }
 
 
@@ -29,7 +27,6 @@ h3{
 h4{
 	font-size:22px;
 	font-family: 'Crimson Text', serif;
-	
 }
 
 h5{
@@ -43,7 +40,6 @@ p{
 }
 
 .banner{
-	
 	background: linear-gradient(90deg, rgba(10, 10, 10, 0.6), rgba(200,200,200,0.6)), url("images/Banner-punch.jpg");
 	background-size: cover;
 	padding:50px;
@@ -51,19 +47,6 @@ p{
 	object-fit:cover;
 	background-position: center;
 	position:relative;
-}
-
-.nav-link{
-	color:white;
-	font-weight: bold;
-	font-size:16px;
-	text-decoration: none;
-}
-
-
-.dropdown-item{
-	font-size:14px;
-	text-decoration:none;	
 }
 
 .logo{
@@ -86,9 +69,7 @@ img{
   	object-fit: cover;
   	margin-top:20px;
   	margin-bottom:20px;
- 
 }
-
 
 .box-beige{
 	background: rgb(240,240,240); 
@@ -130,15 +111,13 @@ img{
 	padding:50px;
 }
 
-
 .footer{
 	font-size: 40px;
 	background:rgb(240,240,240);
 	text-align:left;
 	padding:20px;
 	display: flex;
-	position: relative;
-	
+	position: relative;	
 }
 
 .contact{
@@ -146,7 +125,6 @@ img{
 	top:10px;
 	right:10px;
 	text-align: right;
-	
 }
 
 .list-inline{
@@ -198,9 +176,7 @@ li{
 	text-decoration: underline;
 }
 
-.btn-outline-light{
-	background: 
-}
+
 
 
 
